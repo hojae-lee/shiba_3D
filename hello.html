@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>my first three.js app</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      canvas {
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="300" height="300"></canvas>
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.141.0/build/three.module.js",
+          "GLTFLoader": "https://unpkg.com/three@0.141.0/examples/jsm/loaders/GLTFLoader.js"
+        }
+      }
+    </script>
+    <script type="module" src="option.js"></script>
+  </body>
+</html>
